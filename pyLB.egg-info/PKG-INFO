@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: pyLB
+Version: 0.0.1
+Summary: a server that distributes messages to the workers based on the queue load of the workers
+Home-page: https://github.com/ashetty-undef/py-load_balancer.git
+Author: Anvith J Shetty
+Author-email: ashetty.undef@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # py-load_balancer
+        a server that distributes messages to the workers based on the queue load of the workers
+        
+        #### Execution
+        
+        > python3 supervisor.py
+        > python3 add.py
+        > and a program to push data to the supervisor - example : python3 worker.py
+        
+        
+        ##### Current model
+        
+        To be continued
+        
+        ###### The flow
+        
+        To be continued
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
